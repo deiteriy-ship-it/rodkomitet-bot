@@ -1,0 +1,12 @@
+name = "rodkomitet-bot"
+main = "src/index.ts"
+compatibility_date = "2024-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+BOT_TOKEN="876075...Ep5c"
+SPREADSHEET_ID = "1kVUFZMLm6Fov4DR-IS7ljnlP5FxMQofmBLFWv5V1ztg"
+CHAT_ID = ""
+
+[[cron_triggers]]
+cron = "0 6 * * *"
